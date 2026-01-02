@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Team SR VIP Signal</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+  <h1>💎 WINGO 1 MIN VIP SIGNAL</h1>
+
+  <div class="info">
+    <div>Period: <span id="period">---</span></div>
+    <div>Countdown: <span id="countdown">00:00</span></div>
+  </div>
+
+  <button id="launch">GET SIGNAL</button>
+
+  <div id="result"></div>
+  <div id="result-meta"></div>
+
+  <div class="controls">
+    <button id="voice-toggle">Voice: Off</button>
+    <select id="voice-gender">
+      <option value="female">Female Voice</option>
+      <option value="male">Male Voice</option>
+    </select>
+  </div>
+
+  <button id="history-btn">📜 History</button>
+
+  <div id="log"></div>
+</div>
+
+<!-- HISTORY MODAL -->
+<div id="hist-modal" class="modal hidden">
+  <div class="modal-box">
+    <h3>Signal History</h3>
+    <div id="hist-list"></div>
+    <button id="hist-close">Close</button>
+  </div>
+</div>
+
+<!-- VIP LOCK -->
+<div id="pw-modal" class="vip-lock">
+  <div class="vip-box">
+    <h1>🔐 VIP PREMIUM</h1>
+    <p>3 Step AI Signals</p>
+    <input id="pw-input" type="password" placeholder="Enter VIP Password">
+    <button id="pw-submit">UNLOCK VIP</button>
+    <small>
+      Password needed <br>
+      Contact Admin: <a href="https://t.me/shahedbintarek" target="_blank">@shahedbintarek</a><br>
+      Channel: <a href="https://t.me/SR_Public_metting" target="_blank">Team SR Channel</a>
+    </small>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
