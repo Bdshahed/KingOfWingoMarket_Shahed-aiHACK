@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: radial-gradient(circle,#12002b,#000);
+  color: #fff;
+}
+
+.app {
+  max-width: 420px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #ffd700;
+  text-shadow: 0 0 20px #7f00ff;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+button {
+  padding: 12px 20px;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#launch {
+  background: linear-gradient(90deg,#7f00ff,#e100ff);
+  color: #fff;
+}
+
+.controls button, select {
+  margin-top: 10px;
+}
+
+#result {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+#log {
+  margin-top: 20px;
+  font-size: 12px;
+  text-align: left;
+  opacity: 0.7;
+}
+
+/* VIP LOCK */
+.vip-lock {
+  position: fixed;
+  inset: 0;
+  background: linear-gradient(135deg,#000,#1a0033);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.vip-box {
+  background: rgba(255,255,255,0.08);
+  backdrop-filter: blur(18px);
+  padding: 30px;
+  border-radius: 18px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 0 40px #7f00ff;
+}
+
+.vip-box input {
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border-radius: 8px;
+  border: none;
+}
+
+.vip-box button {
+  width: 100%;
+  background: linear-gradient(90deg,#7f00ff,#ff00cc);
+  color: #fff;
+}
+
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-box {
+  background: #111;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.hidden {
+  display: none;
+}
